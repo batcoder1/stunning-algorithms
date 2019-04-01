@@ -1,6 +1,6 @@
 ![alt text](./redis-node.jpg)
 
-[![Build Status](https://travis-ci.org/wooltar/algorithms.svg?branch=master)](https://travis-ci.org/wooltar/algorithms)
+[![Build Status](https://travis-ci.org/wooltar/stunning-algorithms.svg?branch=master)](https://travis-ci.org/wooltar/stunning-algorithms)
 ![npm](https://img.shields.io/npm/v/npm.svg)
 
 # Algorithms with Javascript
