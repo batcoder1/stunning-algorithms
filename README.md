@@ -5,6 +5,16 @@
 
 Classic algoritms are resolved using javascript
 
+## Algorithms
+
+### Palindrome
+### Greatest Common Divisor (GCD)
+### Least Common Multiple (LCM)
+### Factorial
+### Pythagorean Theorem
+### Reverse String 
+### Reverse Integer 
+
 
 #### You can add more algorithms. Let me a PR!!!
  

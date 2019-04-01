@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./*.spec.js --exit",
+    "test": "mocha ./tests/**/*.spec.js --exit",
     "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chai": "^4.2.0",
+    "math": "0.0.3",
     "mocha": "^6.0.2"
   }
 }
