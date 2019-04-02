@@ -55,7 +55,7 @@ The maximum subarray problem is the task of finding a contiguous subarray with t
 #### Reference: [Wikipedia](https://en.wikipedia.org/wiki/Maximum_subarray_problem)
 
 
-
+---
 
 Do you want add more algorithms? Let me a PR!!!
  
