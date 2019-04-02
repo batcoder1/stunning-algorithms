@@ -6,6 +6,7 @@ const leastCommonMultiple = require('../lib/leastCommonMultiple')
 const euclideanGCD = require('../lib/euclideanGCD')
 const factorial = require('../lib/factorial')
 const pythagorean = require('../lib/pythagorean')
+const maximunSubArray = require('../lib/maximunSubArray')
 describe ("Reversión de cadenas", () => { 
     it (" Debe invertir la cadena ", () => { 
       assert.equal (reverseString ("Hello World!"), "!dlroW olleH"); 
@@ -92,4 +93,29 @@ describe( "Pythagorean theorem",()=> {
         assert.equal(pythagorean.getSide(5,13), 12);
     });
 
+});
+
+describe( "Maximum subarray problem",()=> {
+    it.only("2, 1, 3, 4, 1, maximun subarray should be 2, 1, 3, 4, 1", () =>{
+        const array= [2, 1, 3, 4, 1 ]
+        const arrayExpected = [2, 1, 3, 4, 1]
+        assert.deepEqual(maximunSubArray(array), arrayExpected);
+    });
+    
+    
+    it.only("-2, -1, -3, -4,  maximun subarray should be 4, -1, 2, 1", () =>{
+        const array= [-2, -1, -3, -4, -5]
+        const arrayExpected = [ -1 ]
+        assert.deepEqual(maximunSubArray(array), arrayExpected);
+    });
+    it.only("-2, -1, -3, -4,  maximun subarray should be 4, -1, 2, 1", () =>{
+        const array= [-2, -1, -3, 4, -1, 2, 1, -5, 4]
+        const arrayExpected = [ 4, -1, 2, 1 ]
+        assert.deepEqual(maximunSubArray(array), arrayExpected);
+    });
+    it.only("-2, -1, -3, -4,  maximun subarray should be 4, -1, 2, 1", () =>{
+        const array= [5, 10, -3, -4, -1, -2, 1, -5, 4]
+        const arrayExpected = [ 5, 10 ]
+        assert.deepEqual(maximunSubArray(array), arrayExpected);
+    });
 });
